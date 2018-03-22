@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="centauro_terrain_integration" name="time_sync" type="time_sync" output="screen">
+        <rosparam file="$(find centauro_terrain_integration)/config/time_sync.yaml"/>
+    </node>
+
+</launch>
